@@ -46,7 +46,6 @@ public class MainActivity extends BaseActivity implements HasSupportFragmentInje
         return super.onOptionsItemSelected(item);
     }
   }
-
   @Override public AndroidInjector<Fragment> supportFragmentInjector() {
     return androidInjector;
   }
